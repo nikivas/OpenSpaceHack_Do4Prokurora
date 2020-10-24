@@ -155,6 +155,11 @@
 
 
     </div>
+    <div class="row">
+        <a href="/sendReport">
+            <button style="background-color: rebeccapurple" class="btn">sendReport</button>
+        </a>
+    </div>
 </div>
 
 
