@@ -1,0 +1,410 @@
+﻿body {
+    background: #FFFFFF;
+}
+
+* {
+    border-width: 0px;
+}
+
+p, table {
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Primary/Black */
+    color: #1F232B;
+
+}
+
+table, td, th, tr {
+    margin: 0px;
+    padding: 0px;
+    background: #0BA2D0;
+}
+
+table {
+    border-spacing: 0px 0px;
+}
+
+.container {
+    /*background: #DDE7F0;*/
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    padding-top: 1.2em;
+    background-image: url(/img/fon.jpg);
+    background-size: 70%;
+}
+
+#textMes {
+    display: none;
+}
+
+header {
+    background: pink;
+    margin: 30px;
+    display: none;
+}
+
+textarea {
+    position: static;
+    width: 256px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+
+    /* Primary/White */
+
+    background: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*padding: 16px 0px 0px 32px;*/
+    padding-left: 16px;
+    padding-top: 16px;
+
+    position: relative;
+    width: 256px;
+    height: 56px;
+    background: #02BAE8;
+}
+
+h1.bagRep {
+    width: 302px;
+    height: 48px;
+
+    /* H1/Desktop */
+
+    font-family: Druk Text Cy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+
+    display: flex;
+    text-transform: uppercase;
+
+    /* Primary/Black */
+
+    color: #1F232B;
+}
+
+input {
+    height: 56px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 256px;
+
+    /* Gray / 1 */
+
+    background: #F2F6F9;
+}
+
+input [value] {
+    position: absolute;
+    visibility: hidden;
+    width: 42px;
+    height: 24px;
+    right: 12px;
+    top: calc(50% - 24px / 2 + 1px);
+
+    /* S/Desktop-reg */
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+    color: #1F232B;
+}
+
+input [label] {
+    position: absolute;
+    height: 26px;
+    left: 16px;
+    right: 12px;
+    top: 15px;
+
+    /* M/Desktop-reg */
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+
+    /* Gray / 5 */
+
+    color: #535E6E;
+}
+
+
+h3 {
+    width: 146px;
+    height: 36px;
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #1F232B;
+}
+
+label {
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    width: 150px;
+    height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Primary/Black */
+
+    color: #1F232B;
+}
+
+
+input::placeholder {
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+
+    /* Gray / 5 */
+
+    color: #535E6E;
+}
+
+textarea:active {
+    position: static;
+    height: 78px;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+
+    /* M/Desktop-med */
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+
+    /* Primary/White */
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+
+option {
+    position: absolute;
+    height: 26px;
+    left: 16px;
+    right: 12px;
+    top: 15px;
+
+    /* M/Desktop-reg */
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+
+    /* Gray / 5 */
+
+    color: #535E6E;
+}
+
+option [label] {
+    position: absolute;
+    visibility: hidden;
+    width: 42px;
+    height: 24px;
+    right: 12px;
+    top: calc(50% - 24px / 2 + 1px);
+
+    /* S/Desktop-reg */
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    /* Primary/Black */
+
+    color: #1F232B;
+}
+
+h5.lgT {
+    /* L/Desktop-reg */
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+
+
+    /* Primary/Black */
+
+    color: #1F232B;
+
+    /* Primary/Black */
+
+    color: #1F232B;
+}
+
+select {
+    width: 256px;
+    height: 56px;
+
+    /* Gray / 1 */
+
+    background: #F2F6F9;
+}
+
+hr {
+
+    height: 1px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 1px / 2);
+
+    /* Gray / 3 */
+
+    background: #B8C7D4;
+}
+
+input:active {
+    background: #343944;
+    border-width: 0px;
+}
+
+input:filled {
+    background: #F2F6F9;
+}
+
+input:click {
+    border-width: 0px;
+}
+
+button label {
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+#hidestep {
+    display: none;
+}
+
+textarea[text] {
+    position: absolute;
+    height: 26px;
+    left: 16px;
+    right: 16px;
+    top: 15px;
+
+    /* M/Desktop-reg */
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+
+    /* Gray / 5 */
+
+    color: #535E6E;
+}
+
+img {
+    width: 18%;
+}
+
+h2 {
+    /* H3/Desktop */
+
+    font-family: Graphik LC;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 129% */
+
+    text-align: right;
+
+    color: #000000;
+}
+
+
+#Tmg {
+    width: 50%;
+}
+
+.headTmg {
+    opacity: 1;
+}
+
+#bodyTmg {
+    background: rgba(55, 191, 173, 1);
+}
+
+#card1 {
+    background: rgba(255, 255, 255, 0);
+}

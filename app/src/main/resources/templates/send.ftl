@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styleFirst.css">
+    <link rel="stylesheet" type="text/css" href="/css/styleFirst.css">
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
@@ -22,19 +22,15 @@
 </head>
 <body>
 
-<img src="1.jpg">
+<img src="/img/1.jpg">
 
 <div class="container">
 
     <h1 class="bagRep">Баг репорт</h1>
     <hr>
     <form>
-
-
         <div class="form-row">
             <div class="form-group col-md-6">
-
-
                 <label for="typeS">Выберите тип тестируемого ПО</label>
                 <select  id="typeS">
                     <option>Веб-приложение</option>
@@ -155,7 +151,7 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
-<script type="text/javascript" src="first.js"></script>
+<script type="text/javascript" src="/js/first.js"></script>
 
 </body>
 </html>
