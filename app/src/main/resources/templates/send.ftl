@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="ru">
 <head>
@@ -7,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/styleFirst.css">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
 
 
     <title>Otkritiye</title>
@@ -32,7 +37,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="typeS">Выберите тип тестируемого ПО</label>
-                <select  id="typeS">
+                <select id="typeS">
                     <option>Веб-приложение</option>
                     <option>Приложение Android</option>
                     <option>Приложение IOS</option>
@@ -40,7 +45,7 @@
             </div>
         </div>
 
-        <hr />
+        <hr/>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputDate">Введите дату:</label>
@@ -52,7 +57,7 @@
             </div>
         </div>
 
-        <hr />
+        <hr/>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputAddress">ФИО участника бета-тестирования</label>
@@ -60,7 +65,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="inputAddress2">Модель смартфона</label>
-                <input type="text"  id="inputAddress2" placeholder="">
+                <input type="text" id="inputAddress2" placeholder="">
             </div>
         </div>
         <hr/>
@@ -68,7 +73,7 @@
 
             <div class="form-group col-md-6">
                 <label for="inputOS">Название ОС</label>
-                <select  id="inputOS">
+                <select id="inputOS">
                     <option>Windows</option>
                     <option>Linux</option>
                     <option>Mac OS</option>
@@ -78,7 +83,7 @@
 
             <div class="form-group col-md-6">
                 <label for="inputOSvers">Версия ОС</label>
-                <input type="text"  id="inputOSvers">
+                <input type="text" id="inputOSvers">
             </div>
         </div>
 
@@ -86,7 +91,7 @@
 
             <div class="form-group col-md-6">
                 <label for="reliz">Версия релиза беты</label>
-                <select  id="reliz">
+                <select id="reliz">
                     <option>V 2.0</option>
                     <option>V 2.1</option>
                     <option>V 3.0</option>
@@ -96,10 +101,9 @@
 
             <div class="form-group col-md-6">
                 <label for="nameBag">Название бага</label>
-                <input type="text"  id="nameBag">
+                <input type="text" id="nameBag">
             </div>
         </div>
-
 
 
         <!-- <h5 class="lgT">Шаги воспроизведения</h5> -->
@@ -107,7 +111,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="step">Новый шаг</label>
-                <input type="text"  id="step">
+                <input type="text" id="step">
             </div>
 
             <div class="form-group col-md-6">
@@ -124,15 +128,14 @@
         <!-- Скрытый блок поля шагов -->
         <div class="form-row">
 
-            <div class="form-group col-md-6" id = "hidestep">
+            <div class="form-group col-md-6" id="hidestep">
                 <label for="rel">Сценарий</label>
                 <!--  <input type="text"  id="step1"> -->
-                <textarea id="step1" value = "* "></textarea>
+                <textarea id="step1" value="* "></textarea>
             </div>
 
 
         </div>
-
 
 
         <!-- Выберите файл -->

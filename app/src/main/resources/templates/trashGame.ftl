@@ -6,8 +6,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <meta name="theme-color" content="#000000" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#000000"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
     <style>
         body {
@@ -16,6 +16,7 @@
             background-color: #000000;
             overflow: hidden;
         }
+
         #canvasArea {
             margin-left: auto;
             margin-right: auto;
@@ -72,7 +73,8 @@
     <script src="Extensions\PlatformBehavior\platformruntimebehavior.js" crossorigin="anonymous"></script>
     <script src="Extensions\PlatformBehavior\platformerobjectruntimebehavior.js" crossorigin="anonymous"></script>
     <script src="Extensions\TiledSpriteObject\tiledspriteruntimeobject.js" crossorigin="anonymous"></script>
-    <script src="Extensions\TiledSpriteObject\tiledspriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+    <script src="Extensions\TiledSpriteObject\tiledspriteruntimeobject-pixi-renderer.js"
+            crossorigin="anonymous"></script>
     <script src="Extensions\AnchorBehavior\anchorruntimebehavior.js" crossorigin="anonymous"></script>
     <script src="gdjs-evtsext__parallax__horizontaltiledspriteparallax.js" crossorigin="anonymous"></script>
     <script src="Extensions\SystemInfo\systeminfotools.js" crossorigin="anonymous"></script>
@@ -86,7 +88,7 @@
 
 <script>
 
-    (function() {
+    (function () {
         //Initialization
         var game = new gdjs.RuntimeGame(gdjs.projectData, {});
 
@@ -97,7 +99,7 @@
         game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
 
         //Load all assets and start the game
-        game.loadAllAssets(function() {
+        game.loadAllAssets(function () {
             game.startGameLoop();
         });
     })();
