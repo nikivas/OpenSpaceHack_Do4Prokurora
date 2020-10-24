@@ -142,9 +142,11 @@
         </div>
 
         <!-- <button type="submit" class="btn btn-primary">Отправить</button> -->
-        <button>
-            <label>Отправить</label>
-        </button>
+        <a href="/game">
+            <button>
+                <label>Отправить</label>
+            </button>
+        </a>
     </form>
 
 </div>

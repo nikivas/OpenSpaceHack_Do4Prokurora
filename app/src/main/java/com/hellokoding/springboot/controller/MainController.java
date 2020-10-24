@@ -16,4 +16,9 @@ public class MainController {
         return "send";
     }
 
+    @GetMapping("/game")
+    public String game(Model model) {
+        return "trashGame";
+    }
+
 }
