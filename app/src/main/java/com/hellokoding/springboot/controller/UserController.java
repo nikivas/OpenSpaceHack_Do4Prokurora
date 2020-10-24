@@ -52,6 +52,7 @@ public class UserController {
         user.login = login;
         user.password = pass;
         user.pointSum = 0;
+        user.role = Integer.parseInt(body.get("role"));
 
         return User.save(user);
     }

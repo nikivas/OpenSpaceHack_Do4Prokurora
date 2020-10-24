@@ -32,7 +32,7 @@
 <div class="limiter">
     <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
         <div class="wrap-login100">
-            <form class="login100-form validate-form">
+            <div class="login100-form validate-form">
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-landscape"></i>
 					</span>
@@ -57,9 +57,9 @@
                         Remember me
                     </label>
                 </div>
-            </form>
+            </div>
             <div class="container-login100-form-btn">
-                <button class="login100-form-btn" id="login-btn" onclick="preventDefault()">
+                <button class="login100-form-btn" id="login-btn">
                     Login
                 </button>
             </div>

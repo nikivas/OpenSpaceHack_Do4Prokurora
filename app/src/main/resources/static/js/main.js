@@ -90,18 +90,29 @@ $(document).ready(function () {
         $.ajax({
             url: '/login',
             type: 'post',
-            data: {login: l, password: p},
+            data: JSON.stringify({login: l, password: p, role: 1}),
             headers: {
                 Header_Name_One: 'Header Value One',
                 "Content-Type": 'application/json'
             },
             dataType: 'application/json',
             success: function (data) {
-                console.info(data);
+                localStorage.setItem('user', JSON.stringify(data));
+                console.log(data);
+                window.location.href = "/main";
+                window.location.replace("/main");
+            },
+            error: function (data) {
+                localStorage.setItem('user', JSON.stringify(data));
+                console.log(data);
+                window.location.href = "/main";
+                window.location.replace("/main");
             }
+        }).done(function (data) {
+            localStorage.setItem('user', JSON.stringify(data));
+            console.log(data);
+            window.location.href = "/main";
+            window.location.replace("/main");
         });
-
-
-
     });
 });
